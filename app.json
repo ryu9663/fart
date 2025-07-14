@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "방귀소리 앱",
-    "slug": "fart-sound-app",
+    "slug": "fart",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/fart-icon.png",
@@ -29,8 +29,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "9e9d61d6-b5cf-4c00-bf45-9126711c9b92"
+        "projectId": "54ea8e9b-c5b6-4fec-80da-c81ce690b2f8"
       }
-    }
+    },
+    "owner": "june9663"
   }
 }
