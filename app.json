@@ -22,7 +22,8 @@
         "backgroundColor": "#1a1a2e"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.yourname.fartsoundapp"
+      "versionCode": 8,
+      "package": "com.june9663.fartsound"
     },
     "web": {
       "favicon": "./assets/images/fart-icon.png"
@@ -32,6 +33,17 @@
         "projectId": "54ea8e9b-c5b6-4fec-80da-c81ce690b2f8"
       }
     },
-    "owner": "june9663"
+    "owner": "june9663",
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35
+          }
+        }
+      ]
+    ]
   }
 }
